@@ -1,0 +1,57 @@
+a{
+    color: rgb(235, 22, 22);
+    text-decoration: none;
+}
+
+body{
+  height: 100vh;
+  background: rgb(143, 143, 147);
+  font-family: 'popins' sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(239, 245, 245);
+  overflow: hidden;
+}
+
+.ticker{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 60%;
+    margin: 0 auto;
+}
+
+.news{
+    width: 76%;
+    background: rgb(12, 12, 12);
+    padding: 0 2%;
+}
+
+.title{
+    width: 20%;
+    text-align: center;
+    background: rgb(51, 15, 214);
+    position: relative;
+    font-family: 'Rubik Spray Paint', cursive;
+}
+
+.title ::after{
+ position: absolute;
+ content: "";
+ right: -28%;
+ border-left: 20px solid rgb(231, 228, 228);
+ border-top: 35px solid transparent;
+ border-right: 13px solid transparent;
+ border-bottom: 34px solid transparent;
+ top: 0;
+}
+
+.title h5{
+    font-size: 18px;
+    margin: 8% 0;
+}
+
+.news{
+    font-size: 18px;
+}
